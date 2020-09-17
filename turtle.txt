@@ -1,0 +1,45 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> turtle import
+  File "<stdin>", line 1
+    turtle import
+           ^
+SyntaxError: invalid syntax
+>>> turtle.import
+  File "<stdin>", line 1
+    turtle.import
+           ^
+SyntaxError: invalid syntax
+>>> import turtle
+>>> setup.turtle(400, 400, 0, 0)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'setup' is not defined
+>>> turtle.setup(400, 400, 0, 0)
+>>> turtle.left(135)
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.left(135)
+>>> turtle.forward(100)
+>>> turtle.forward(35)
+>>> turtle.forward(10)
+>>> turtle.right(90)
+>>> turtle.forward(100
+... )
+>>> turtle.right.(90)
+  File "<stdin>", line 1
+    turtle.right.(90)
+                 ^
+SyntaxError: invalid syntax
+>>> turtle.right(90)
+>>> turtle.right(180)
+>>> turtle.forward(50)
+>>> turtle.left(72)
+>>> turtle.forward(50)
+>>> turtle.left(72)
+>>> turtle.forward(50)
+>>> turtle.left(72)
+>>> turtle.forward(50)
+>>> turtle.left(72)
+>>> turtle.forward(50)
